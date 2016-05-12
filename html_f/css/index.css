@@ -1,0 +1,338 @@
+body
+{
+	background-color: #E9E9E9;
+	overflow: hidden;
+}
+
+/*inside body main wrapper*/
+#main_container
+{
+	width: 100%;
+}
+
+
+/*login wrapper*/
+.animated.bounceInRight#login
+{
+	background-color:  #4B77BE ; /* #4472B9 #90C3DE; */
+	width: 22%;
+	height: 12%;
+	float: right;
+	display: block	;	
+	padding: 15px 15px;
+	position: relative;
+	border-radius: 10px;
+	margin-top: 3.5%;
+	margin-right: 6em;
+	margin-left: 6em;
+	margin-bottom: 3%;
+	box-shadow: 1px 1px 12px black;
+
+}
+
+
+/*usp banner image holder*/
+.animated.bounceInDown#banner
+{
+	background-color: #4B77BE; /* #EFF0F0  #D3D4D4 #AFD3E6;*/ 
+	width: 90%;
+	height: 8em;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: auto;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 1px 1px 12px black; /* for 3d effect shadow
+	box-shadow: 1px 1px 12px white inset; */
+}
+
+/*image on banner*/
+#usp_name
+{
+	height: 6em;	
+	width: 90%;
+	margin: auto;
+	padding: 1em;
+	display: block;
+}
+
+/*USerid PassworD text*/
+#uspd
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: cORBEL,Adobe Fan Heiti Std;
+	padding: 5px 5px;
+	margin-top: 10px;
+	margin: 10px 20px;
+	color: 	white;
+
+}
+
+/*uid and password textboxes*/
+#form1_textbox	
+{
+	
+	height: 2.5em;
+	width: 16em;
+	float : right;
+	border:none;
+	border-radius: 	4px;
+	font-family: 	Arial;
+	color: 	#515353;
+	font-size: 0.8em;
+	font-weight: bolder;
+
+}
+
+
+/*login button*/
+#submit_button
+{	
+	height: 3.8em;
+	width: 7.8em;
+	margin: auto;
+	color: #505A52;
+	background-color: #56F576; /*#708590;*/
+	border : none;
+	border-radius: 5px;
+	padding: auto 35px;
+	float: right;
+	margin: 5px 20px;
+	font-weight: bold;
+	font-size: 1em;
+	margin-top:  0px;
+	margin-bottom: 10px;
+}
+
+/*hover event on login button*/
+#submit_button:hover
+{
+	background-color: #44F667;
+	box-shadow: 0.2px 0.2px 4px white;
+	height: 	3.9em;
+	color: 	#EEF1EE;
+	margin-bottom: 9px;
+}
+
+/*below banner main content holder*/
+.animated.bounceInLeft#center
+{
+	width: 60%;
+	height: 45em;
+	float: left;
+	display: inline;
+	background-color: #4B77BE; 
+	border-radius: 10px;
+	margin-left: 6em;
+	margin-top: 3.5%;	
+	box-shadow: 1px 1px 12px black;
+	overflow-y:auto;
+} 
+
+
+/*below login extra info holder*/
+.animated.bounceInUp#side_bottom
+{
+	width: 23.5%;
+	height: 23.5em;
+	float: right;
+	display: inline;
+	background-color: #4B77BE;   /*the lighter shade from inbox : #4285f4;*/
+	border-radius: 10px;
+	margin-right: 6em;
+	margin-top: 1%;	
+	box-shadow: 1px 1px 12px black;
+}
+
+/*to add padding to text inside containers*/
+#padder
+{
+	padding: 20px 20px;
+}
+
+/*user id and password conatiners*/
+#uid,#pswd
+{
+	padding: 2px 2px;
+	margin: 2px 20px;
+}
+
+/* random text in center box*/
+#q1
+{
+	color: #071A49;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+/*scrollbar css for center container -> start*/
+#center::-webkit-scrollbar
+{
+	background-color: #4472B9;
+	width: 10px;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-radius: 12px;
+}
+
+#center::-webkit-scrollbar-track
+{
+	border-radius: 12px;
+	background-color: #5C93E6;
+	margin: 4px 3px;
+	height: 30px;
+	padding: 5px 5px;
+	-webkit-box-shadow:0 0 6px gray inset;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+#center::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #3F4042;
+	margin: 4px 3px;
+	height: 30px;
+	padding: 5px 5px;
+	margin-right: 10px;
+	padding-right: 10px;
+	border: 0.5px solid black;
+	box-shadow: 1px 1px 5px #555658 inset;
+	transition: width 1s linear 2s;
+}
+/*scrollbar css for center container -> stop*/
+
+/*testing*/
+#readmore
+{
+	color: white;
+}
+
+/*testing*/
+#readmore:active
+{
+	color: red;
+}
+
+
+/*messageboard class*/
+.msgb
+{
+	background-color: #39537A;
+	border-radius: 4px;
+	height: 3.2em;
+	text-align: center;
+	display: 	block	;
+	margin-top: 	15px;
+	margin-bottom: 	15px;
+	padding-top: 	1em;	
+	vertical-align: center;
+	cursor: grab;
+/*
+box-shadow: 	1px 1px 10px white;
+margin: 15px 5px;
+padding: 5px 5px;
+*/
+}
+
+
+/* CODE TO HAVE THE MOUSEOVER TEXT SWITCH EFFECT 1st msg board*/
+div#m1 span#a 
+{
+   display:inline;
+}
+div#m1:hover span#a
+{
+	display:none;
+}
+div#m1 span#b 
+{
+    display:none;
+
+}
+div#m1:hover span#b 
+{
+   display:inline;
+}
+
+
+/* CODE TO HAVE THE MOUSEOVER TEXT SWITCH EFFECT 2nd msg board */
+div#m2 span#a 
+{
+   display:inline;
+}
+div#m2:hover span#a
+{
+	display:none;
+}
+div#m2 span#b 
+{
+    display:none;
+}
+div#m2:hover span#b 
+{
+   display:inline;
+}
+
+/* CODE TO HAVE THE MOUSEOVER TEXT SWITCH EFFECT 3rd msg board*/
+div#m3 span#a 
+{
+   display:inline;
+}
+div#m3:hover span#a
+{
+	display:none;
+}
+div#m3 span#b 
+{
+    display:none;
+}
+div#m3:hover span#b 
+{
+   display:inline;
+}
+
+/* CODE TO HAVE THE MOUSEOVER TEXT SWITCH EFFECT 4th msg board*/
+div#m4 span#a 
+{
+   display:inline;
+}
+div#m4:hover span#a
+{
+	display:none;
+}
+div#m4 span#b 
+{
+    display:none;
+}
+div#m4:hover span#b 
+{
+   display:inline;
+}
+
+/*the alternate texts in message boards*/
+#a, #b
+{
+	color: white;
+	font-weight: bolder;
+	font-size: 2.2em;
+	font-family: bubbleboddy;
+}
+
+/*msg board flip info (#b)*/
+#uspsite
+{
+	text-decoration: 	none;	
+	color: #f1c40f;
+}
+
+#q2
+{
+	font-size: 1.6em;
+	font-family: arial;
+	color: #071A49;
+	font-weight: normal;
+	text-indent: 1em;
+}

@@ -1,0 +1,75 @@
+body
+{
+	background-color: white;
+	padding: 1.5em 1.5em;
+}
+
+
+.animated.fadeInLeft.header
+{
+	background-color: #019875;
+	height: 1.5em;
+	width: 7em;
+	font-weight: bolder;
+	font-family: monospace;
+	color: #E4F1FE;
+	font-size: 3em;
+	border: none;
+	text-align: center;
+	border-radius: 0.1em;
+	margin-left: 5em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.header:hover
+{
+	background-color: #446CB3;
+	box-shadow: 0.1em 0.1em 0.2em #7AA5F0;
+}
+
+iframe
+{
+	height: 44em;
+	width: 58em;
+	background-color: white; /*#BDC3C7;*/
+	float: right;
+	margin-top: -30.4em;
+	border-radius: 0.3em;
+}
+
+.animated.flipInY.hinfo
+{
+	
+	width: 17em;
+	background-color: #FADA59; 
+	padding: 1em 1em;
+	float: left;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: cursive;
+	border: 2px dashed black;
+
+}
+
+#feedback
+{
+	margin-left: 5em;
+	border: 2px dashed black;
+}
+
+#complaint
+{
+	margin-left: 5em;
+}
+
+
+#c
+{
+	margin-top: 7em;
+}

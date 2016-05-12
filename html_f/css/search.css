@@ -1,0 +1,144 @@
+body
+{
+	background-color: white;
+	padding: 1em 1em;
+}
+
+#search
+{
+	background-color: #D2D7D3;
+	border-radius: 0.4em;
+	border: none;
+	font-size: 1.5em;
+	font-family: arial;
+	color: #D35400;
+	padding: 0.2em 0.2em;
+	margin-top: 2em;
+	box-shadow: 0.1em 0em 0.7em black;
+	text-align: center;
+	margin-bottom: 1.4em;
+}
+
+span
+{
+	font-family: arial;
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-left: 1em;
+	text-align: center;
+}
+
+#cb
+{
+	height: 1.8em;
+	width: 2.8em;
+}
+
+#find
+{
+	border: none;
+	font-weight: bold;
+	background-color: #D35400;
+	color: #EEEEEE;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1.5em;
+	padding: 0.3em 0.5em;
+	border-radius: 0.1em;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+#result
+{
+	background-color: #CBCFCC;
+	border-radius: 0.1em;
+	padding: 1em 1em;
+	margin-top: 2em;
+	text-align: center;
+	float: left;
+	height: auto;
+	display: inline;
+}
+
+#res
+{
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: monospace;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+
+p
+{
+	background-color: #65C6BB;
+	padding: 0.4em 0.6em;
+	border-radius: 0.1em;
+	font-size: 1.8em;
+	color: #2c3e50;
+	font-weight: bold;
+	text-align: center;
+	font-family: monospace;
+}
+
+#tnc
+{
+	color: red;
+}
+
+.label1
+{
+	background-color: #90C695;
+	padding: 0.4em 0.4em;
+	text-align: center;
+	border-radius: 0.1em; 
+	display: block;
+	width: 8em;
+	margin-left: 3em;
+	margin-top: -1.4em;
+}
+
+.label1:hover
+{
+	background-color: black;
+	color: #90C695;
+}
+
+/*scrollbar css for body -> start*/
+
+body::-webkit-scrollbar
+{
+	background-color: white;
+	width: 8px;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-radius: 12px;
+}
+
+body::-webkit-scrollbar-track
+{
+	border-radius: 12px;
+	background-color: white;
+	margin: 4px 3px;
+	height: 30px;
+	padding: 5px 5px;
+	/* -webkit-box-shadow:0 0 6px gray inset;  shadow */
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: black; /*#1E824C */
+	margin: 4px 3px;
+	height: 30px;
+	padding: 5px 5px;
+	margin-right: 10px;
+	padding-right: 10px;
+	/* box-shadow: 1px 1px 5px #555658 inset; */
+	transition: width 1s linear 2s;
+}
+/*scrollbar css for body -> stop*/

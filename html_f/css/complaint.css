@@ -1,0 +1,70 @@
+body
+{
+	background-color: #90C695;
+	padding: 1.2em 1.2em;
+}
+
+
+#button
+{
+	border: none;
+	height: 2.5em;
+	width: 5em;
+	border-radius: 0.1em;
+	font-weight: bold;
+	font-size: 1.4em;
+	background-color: #186B3F;
+	color: white;
+	margin-left: 7.5em;
+	transition: width 0.2s;
+}
+
+#button:hover
+{
+	width: 5.6em;
+	/*box-shadow: 0.1em 0.1em 0.2em white; */
+}
+
+.label
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: arial;
+}
+
+
+.cat /* select box */
+{
+	background-color: #DADFE1;
+	border:none;
+	height: 1.8em;
+	width: 9em;
+	font-size: 1.4em;
+	text-align: center;
+	border-radius: 0.2em;
+	color: #34495e;
+}
+
+#cdept
+{
+	margin-left: 1.3em;	
+}
+
+#ccat
+{
+	margin-left: 2em;	
+}
+
+#cta /* complaint textarea */
+{
+	height: 15.2em;
+	width: 34em;
+	text-align: left;
+	vertical-align: text-top;
+	resize:none;
+	border:none;
+	background-color: #DADFE1;
+	font-size: 1.5em;
+	color: #2C3E50;
+	margin-left: 1.5em;
+}

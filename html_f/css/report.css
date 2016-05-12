@@ -1,0 +1,61 @@
+body
+{
+	background-color: #ABB7B7;
+	padding: 1.2em 1.2em;
+}
+
+#fdbk /* feedback textarea */
+{
+	height: 20em;
+	width: 37em;
+	text-align: left;
+	vertical-align: text-top;
+	resize:none;
+	border:none;
+	background-color: #DADFE1;
+	font-size: 1.5em;
+	color: #2C3E50;
+}
+
+#button
+{
+	border: none;
+	height: 2.5em;
+	width: 5em;
+	border-radius: 0.1em;
+	font-weight: bold;
+	font-size: 1.4em;
+	background-color: #D35400;
+	color: white;
+	margin-left: 4.7em;
+	transition: width 0.2s;
+}
+
+#button:hover
+{
+	width: 5.6em;
+	/*box-shadow: 0.1em 0.1em 0.2em white; */
+}
+
+
+#label
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: arial;
+}
+
+#fbcat /* select box */
+{
+	background-color: #DADFE1;
+	border:none;
+	height: 1.8em;
+	width: 9em;
+	color: #34495e;
+	font-size: 1.4em;
+	text-align: center;
+	border-radius: 0.2em;
+	margin-left: 0.6em;
+
+}
+

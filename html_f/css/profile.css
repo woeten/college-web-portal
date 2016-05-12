@@ -1,0 +1,56 @@
+body
+{
+	background-color: white;
+}
+
+#main_container
+{
+	width: 100%;
+}
+
+ul
+{
+	list-style-type: none;
+	display: block;
+}
+
+li
+{
+	background-color: #01A9DB;
+	padding: 0.3em 0.3em;
+	font-family: arial;
+	font-size: 1.6em;
+	margin: 0.4em 1em;
+	color: white;
+	border-radius: 0.1em;
+}
+
+li:first-of-type
+{
+	margin-top: 2em;
+}
+
+
+
+#title
+{
+	float: left;
+}
+
+#title li
+{
+	background-color: #2c3e50;
+	text-align: right;
+}
+
+#info
+{
+	float: left;
+	margin-left: -3.4em;
+}
+
+#info li
+{
+	background-color: #7f8c8d;
+	text-align: left;
+}

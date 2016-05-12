@@ -1,0 +1,92 @@
+body
+{
+	background-color: white;
+	padding: 	0.5em 1.5em;
+	overflow-x:hidden;
+}
+
+/*scrollbar css for body -> start*/
+
+body::-webkit-scrollbar
+{
+	background-color: #95A5A6;
+	width: 10px;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-radius: 12px;
+}
+
+body::-webkit-scrollbar-track
+{
+	border-radius: 12px;
+	background-color: #95A5A6;
+	margin: 4px 3px;
+	height: 30px;
+	padding: 5px 5px;
+	/* -webkit-box-shadow:0 0 6px gray inset;  shadow */
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #22313F;
+	margin: 4px 3px;
+	height: 30px;
+	padding: 5px 5px;
+	margin-right: 10px;
+	padding-right: 10px;
+	border: 0.5px solid black;
+	/* box-shadow: 1px 1px 5px #555658 inset; */
+	transition: width 1s linear 2s;
+}
+/*scrollbar css for body -> stop*/
+
+p
+{
+	background-color: #2ECC71;
+	padding: 0.3em 0.2em;
+	font-size: 1.4em;
+	font-weight: normal;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	color: Black;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	background-color: #bdc3c7;
+	padding: 0.3em 0.3em;
+	margin-bottom: 0.4em; 
+	font-size: 1.5em; 
+	margin-left: -1.7em;
+}
+
+a
+{
+	background-color: #038063;
+	color: white;
+	font-family: verdana;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.2em 0.4em;
+	float: right;
+	font-size: 0.7em;
+	vertical-align: middle;
+	box-shadow: 0.1em 0.1em 0.4em #02392C;
+	transition: scale3d 2s;
+}
+
+
+
+a:hover
+{
+	transform: scale3d(1.08, 1.08, 1.08);
+}

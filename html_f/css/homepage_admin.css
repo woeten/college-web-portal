@@ -1,0 +1,241 @@
+body 
+{
+	background-color: #2ecc71;
+}
+#main_container
+{
+	width: 100%;
+	/*background-color: blue;  just to see the main container area*/
+	height: 100%;
+}
+
+.animated.lightSpeedIn#upperbar
+{
+	width: 80%;
+	height: 6em;
+	margin: 2% auto;
+	background-color: black;
+	padding: 2% 4%;
+	border-radius: 0.4em;
+  z-index: 500;
+  position: relative;
+}
+
+#dp
+{
+	border-radius: 100%;
+	background-color: silver;
+	height: 8em;
+	width: 8em;
+	float: left;
+	margin-top: -1em;
+}
+
+
+
+
+/* NAV BAR CODE */
+
+#linkbar
+{
+	display: inline;
+	float: left;
+}
+
+
+#linkbar ul
+{
+	list-style-type: none;
+	vertical-align: middle;
+	margin-top: 2em;
+}
+
+#linkbar li
+{
+	float: left;
+	vertical-align: middle;
+
+}
+
+#linkbar a
+{
+	display: block;
+	width: 10em;
+	height: 1.6em;
+	background-color: #F7E9E8;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: #8E1407;
+	font-family: sans-serif;
+	vertical-align: middle;
+	border-radius: 0.2em;
+	padding-bottom: auto;
+	margin-bottom: 0.2em;
+	margin-right: 1em;
+	text-decoration: none;
+	padding-top: 0.6em;
+}
+
+#linkbar a:first-of-type
+{
+	margin-left: 2em;
+}
+
+#linkbar a:hover
+{
+	background-color: #e74c3c;
+	color: white;
+
+}
+/* NAV BAR CODE END */
+
+
+
+
+
+/* NOTIFICATION  */
+
+
+#notif
+{
+	background-color: #F27935;
+	color: white;  
+	float: right;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: sans-serif;
+	height: 1.8em;
+	width: 1.8em;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 1em;
+	font-family: 	cursive;	
+	font-weight: 	bold;	
+}
+
+.animated.pulse#notif_preview
+{
+	background-color: #6C7A89;
+	height: 200px;
+	width: 230px;
+	display: none;
+	margin: 1.4em 0.2em;
+	padding-left: 0.2em;
+	padding-right: 0;
+	border-radius: 	0.2em;
+	border: 2.5px solid white;
+  box-shadow: 0.1em 0.1em 0.5em black;
+}
+
+
+#notif .animated.pulse#notif_preview ul 
+{
+	display: none;
+}
+
+#notif:hover
+{
+	background-color: white; 
+}
+
+#notif:hover > a
+{
+	color:  #34495E;
+}
+
+#notif:hover>.animated.pulse#notif_preview
+{
+	display: block;
+}
+
+#notif:hover > .animated.pulse#notif_preview ul
+{
+	display: block;
+	float: left;
+}
+
+#notif .animated.pulse#notif_preview ul li
+{
+	/*background-color: white; */
+	height: 40px;
+	width: 180px;
+	float:left;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	color: 	white;
+	font-size: 	0.6em;
+}
+
+#notif a
+{
+	text-decoration: none;
+	color: white;
+}
+
+/* END OF NOTIFICATION */
+
+
+
+/* FRAME WORK */
+
+.animated.zoomIn#frame
+{
+	width: 88%;
+	background-color: BLACK;
+	border-radius: 0.4em;
+	margin: auto;
+	padding: auto;
+	height: 46em;
+ 	z-index: 1;
+  	position: relative;
+
+}
+
+
+
+.animated.zoomIn#iframe
+{
+	height: 100%;
+	width: 100%;
+	display: block;
+  z-index: 1;
+  position: relative;
+
+}
+
+/* END OF FRAME WORK */
+
+
+#logout	
+{
+	height: 2em;
+	width: 5em;
+	float: right;
+	/*border: 2px dashed white;
+	border-radius: 0.4em; */
+	transition: scale3d 2s;
+}
+
+#logout a 
+{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bold;
+  	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin-left: 0.9em;
+	border-radius: 0.5em;
+ 	height: 2em;
+
+}
+
+#logout:hover > a
+{
+	color: black;
+	font-weight: bolder;
+	background-color:#F5AB35;
+	border-radius: 0.2em;
+  	height: 2em;
+  	padding: 0.3em 0.2em;
+}

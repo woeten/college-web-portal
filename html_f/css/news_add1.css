@@ -1,0 +1,61 @@
+body
+{
+	background-color: white;
+}
+
+input 
+{
+	border-radius: 0.1em;
+	background-color: silver;
+	color: red;
+	font-size: 1.2em;
+	padding: 0.2em 0.2em;
+	border: none;
+}
+
+#lbl
+{
+	font-family: monospace;
+	font-size: 1.5em;
+}
+
+#label
+{
+	float: left;
+	list-style-type: none;
+	margin-top: 1.5em;
+}
+
+#label li
+{
+	margin-bottom: 1.5em;	
+}
+
+
+
+#label li:nth-of-type(6)
+{
+	margin-top: 2 .5em;
+	margin-bottom: 4.5em;	
+}
+
+#txbo
+{
+	float: left;
+	list-style-type: none;
+}
+
+
+
+#button
+{
+	float: left;
+	margin-top: 11em;
+	margin-left: -13em;
+	height: 1.5em;
+	width: 4em;
+	padding: 0.2em 0.4em;
+	border-radius: 0.2em;
+	color: silver;
+	background-color: red;
+}

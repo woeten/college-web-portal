@@ -1,0 +1,82 @@
+#from
+{
+	background-color: silver;
+	border-radius: 0.2em;
+	text-align: center;
+	font-size: 1.2em;
+	color: black;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding: 1em 1em;
+    width: 22em;
+    height: 1.2em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;   
+    display: block;  
+}
+
+#topic
+{
+	background-color: silver;
+	border-radius: 0.2em;
+	text-align: center;
+	font-size: 1.2em;
+	color: black;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding: 1em 1em;
+	width: 22em;
+    display: block;
+    height: 1.2em;
+    margin-bottom: 1em;
+    margin-left: 1.5em; 
+}
+
+#msg
+{
+	background-color: silver;
+	border-radius: 0.2em;
+	text-align: center;
+	font-size: 1.2em;
+	color: black;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding: 1em 1em;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	width: 80%;
+	height: auto;
+}
+
+#dismiss
+{
+	background-color: #c0392b;
+	color: white;
+	font-family: verdana;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.2em 0.4em;
+	float: left;
+	font-size: 1.2em;
+	vertical-align: middle;
+	box-shadow: 0.1em 0.1em 0.4em black;
+	border:none;
+	transition: scale3d 2s;
+	margin-top: 2em;
+	margin-left: 1.5em;
+}
+
+
+
+#dismiss:hover
+{
+	transform: scale3d(1.08, 1.08, 1.08);
+}
+
+
+body
+{
+	margin-top: 2.5em;
+
+}
