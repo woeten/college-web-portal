@@ -23,18 +23,26 @@ First user: The Admin-
 Second user: The Professors-
 
   The professors are arranged according to their respective departments in the back-end database.
+  
   The professors receive a notification(if they have any message) when he/she logs in.
+  
   The professors can reply back to the messages or answer students question.
+  
   The professor can look up the students attending the class.
+  
   The professors do not have the right to add/remove a students information from the database,the professor must request the Admin by sending him a message through the web portal itself.
   
   
 Third user: The Students-
 
   The students are arranged according to their respective classes in the back-end database.
+  
   The students receive a notification(if they have any message or a professor has replied to the students question) when he/she logs in.
+  
   The students can ask questions to the professors by searching the professors name in the department section.
+  
   The student can also look up the courses required for a particular major.
+  
   The student can only interact with the admin through the professor using the messaging system in the web portal.
   
   
