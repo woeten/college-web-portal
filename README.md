@@ -16,7 +16,7 @@ First user: The Admin-
   
   
   
-Second user: The Profesors-
+Second user: The Professors-
 
   The professors are arranged according to their respective departments in the back-end database.
   The professors receive a notification(if they have any message) when he/she logs in.
