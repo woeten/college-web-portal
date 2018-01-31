@@ -9,6 +9,7 @@ This website has three types of users: The Admins, the Professors and the studen
 
 First user: The Admin-
 
+
   The Admin has full access to the entire back-end database of college website.
   The Admin can add/delete students information from the college database
   The Admin can add/delete professors information from the college database.
