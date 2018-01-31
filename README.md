@@ -2,7 +2,7 @@
 
 
 This project is a simulation of a college website.
-This website provides an interactive portal through which users can message each other and it also provides other functions.
+This website provides an interactive portal through which users can message each other(just like a regular social network website) and it also provides other functions.
 
 This website has three types of users: The Admins, the Professors and the students.
 
@@ -37,5 +37,5 @@ Third user: The Students-
   
     
 
-It has a messaging system just like any social network website, when you log in, you get a notification if someone did send you a message or not.
-It also gave the ability for the professors to manage their students through a 
+
+
