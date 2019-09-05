@@ -1,7 +1,7 @@
 #college-web-portal
 
 
-This project is a simulation of a college website.
+This project is a simulation of a college website(blackbaord).
 This website provides an interactive portal through which users can message each other(just like a regular social network website) and it also provides other functions.
 
 This website has three types of users: The Admins, the Professors and the students.
